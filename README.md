@@ -54,7 +54,7 @@ This page is intended for a single page view with floating navigation buttons on
         <td valign="top">Page viewed on Surface Pro 7:<img src="assets\Images\Max-Width Surface Pro7.PNG" width="500px" height="500px" alt="Picture of page viewed on Surface Pro 7"/></td>
     <tr>
         <td valign="top">Page viewed on IPhone 12 Pro:<img src="assets\Images\Max-Width IPhone12Pro.PNG" height="500px"      alt="Picture of page viewed on IPhone 12 Pro"/>
-        <td valign="top">Page viewed on Pixel 5:<img src="assets\Images\Max-Width Pixel5.PNG" width="500px" height="500px" alt="Picture of page viewed on Pixel 5"/></td>
+        <td valign="top">Page viewed on Pixel 5:<img src="assets\Images\Max-Width Pixel5.PNG" width="300px" height="500px" alt="Picture of page viewed on Pixel 5"/></td>
     </tr>
 </table>
 
