@@ -230,7 +230,17 @@ body {
         scroll-padding-top:15rem;   
     }
 }
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 610px) {
+    .headertext {
+        font-size: 18px; 
+        margin-top: -200px; 
+    }
+    .headertext H1 {
+        font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 570px) {
     header {
         height: 550px;
     }
@@ -247,12 +257,4 @@ body {
         scroll-padding-top:20rem;   
     }
 }
-@media screen and (max-width: 393px) {
-    .headertext {
-        font-size: 18px; 
-        margin-top: -200px; 
-    }
-    .headertext H1 {
-        font-size: 30px; 
-    }
-}
+
