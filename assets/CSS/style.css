@@ -104,12 +104,12 @@ body {
     height: 3200px;; 
 }
 .bodyboxheader {
-    position: absolute;
+    position:relative;
     height: 35px; 
     width: 300px;
     margin-left: 35px;
     margin-right: 30px; 
-    margin-top: 20px; 
+    margin-top: 30px; 
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -124,10 +124,10 @@ body {
     color:black; 
 }
 .bodybox {
-    height: 320px;; 
+    height: auto; 
     margin-left: 15px;
     margin-right: 30px; 
-    margin-top: 40px; 
+    margin-top: -15px; 
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -169,7 +169,7 @@ body {
     border-color: black;
 }
 .contactmebox {
-    height: 120px;; 
+    height: auto; 
     margin-left: 15px;
     margin-right: 30px; 
     margin-top: 40px; 
@@ -226,6 +226,33 @@ body {
     #currentprojects {
         margin-top:170px; 
     }
-
-    
+    html {
+        scroll-padding-top:15rem;   
+    }
+}
+@media screen and (max-width: 565px) {
+    header {
+        height: 550px;
+    }
+    .headertext {
+        padding-top:20px; 
+    }
+    .navcontainer {
+        margin-top: -290px;
+    }
+    #currentprojects {
+        margin-top: 270px; 
+    }
+    html {
+        scroll-padding-top:20rem;   
+    }
+}
+@media screen and (max-width: 393px) {
+    .headertext {
+        font-size: 18px; 
+        margin-top: -200px; 
+    }
+    .headertext H1 {
+        font-size: 30px; 
+    }
 }
