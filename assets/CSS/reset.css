@@ -1,3 +1,6 @@
+/*This CSS is used to reset the HTML to the below standard before 
+applying the CSS found in style.css*/
+
 * {
     margin: 0;
     padding: 0;
