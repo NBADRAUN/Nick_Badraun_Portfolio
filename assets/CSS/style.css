@@ -150,6 +150,16 @@ body {
     border-radius: 25px;  
     box-shadow: grey 10px 10px 10px;
 }
+.card:hover {
+    border-color: blue;
+    border-width: 4px;
+}
+#cardheaderpicture:hover {
+    width: 135px; 
+    height: 120px;
+    margin-left:30px; 
+}
+
 #cardheadertext {
     padding-left: 8px;
     padding-right:8px; 
