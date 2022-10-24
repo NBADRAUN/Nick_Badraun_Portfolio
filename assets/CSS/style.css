@@ -305,3 +305,27 @@ body {
     }
 }
 
+@media screen and (max-width: 375px) {
+    header {
+        height: 470px;
+    }
+    .headertext {
+        padding-top:20px; 
+    }
+    .navcontainer {
+        margin-top: -160px;
+    }
+    #currentprojects {
+        margin-top: 150px; 
+    }
+    html {
+        scroll-padding-top:12rem;   
+    }
+    .navcontainer ul {
+        padding-top: 15px;
+        width: 90px; 
+        height: 50px;
+        font-size: 10px;
+    }
+
+}
