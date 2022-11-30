@@ -1,0 +1,13 @@
+///setup the questions/////
+
+
+var Questions = [
+    {
+    id: 0,
+    q: "Question 1 Text?",
+    a: [{ text: "Answer1", isCorrect: false, points: 0, },
+        { text: "Answer2", isCorrect: false, points: 0, },
+        { text: "Answer3", isCorrect: true, points: 1, },
+        { text: "Answer4", isCorrect: false, points: 0, }
+    ]},
+]
